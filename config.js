@@ -3,17 +3,17 @@ const chalk = require('chalk')
 
 /* ==== SETTINGS ==== */
 global.prefa = [',','!','.','#','&']
-global.autoRecording = true //auto recording
-global.autoTyping = true //auto typing
+global.autoRecording = false //auto recording
+global.autoTyping = false //auto typing
 global.autorecordtype = true //auto typing + recording
 global.autoread = true //auto read messages
 global.autobio = false //auto update bio
 global.anti91 = false //auto block +91 
 global.autoswview = true //auto view status/story
 global.antilinkMode = true; // Default: disabled
-global.ownernomer = "263786115435"
+global.ownernomer = "0536385545"
 global.ownername = "𝚚𝚞𝚎𝚎𝚗-𝚛𝚞𝚟𝚊 𝙰𝙸"
-global.ownernumber = '263786115435' 
+global.ownernumber = '0536385545' 
 
 module.exports = {
     // ... other settings ...
@@ -24,7 +24,7 @@ module.exports = {
     }
 };
 global.reactSettings = {
-  enabled: true, // Master switch
+  enabled: false, // Master switch
   emojis: ['❤️', '🔥', '👍', '😂', '😮'], // Reaction pool
   cooldown: new Map(), // Stores last reaction time per chat
   noReactZones: [ // Groups/channels where reactions are blocked
