@@ -5,15 +5,15 @@ const chalk = require('chalk')
 global.prefa = [',','!','.','#','&']
 global.autoRecording = false //auto recording
 global.autoTyping = false //auto typing
-global.autorecordtype = true //auto typing + recording
+global.autorecordtype = false //auto typing + recording
 global.autoread = true //auto read messages
 global.autobio = false //auto update bio
 global.anti91 = false //auto block +91 
 global.autoswview = true //auto view status/story
 global.antilinkMode = true; // Default: disabled
-global.ownernomer = "0536385545"
+global.ownernomer = "0536389904"
 global.ownername = "𝚚𝚞𝚎𝚎𝚗-𝚛𝚞𝚟𝚊 𝙰𝙸"
-global.ownernumber = '0536385545' 
+global.ownernumber = '0536389904' 
 
 module.exports = {
     // ... other settings ...
